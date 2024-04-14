@@ -1,0 +1,70 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    font-family: 'Monteserrat', sans-serif;
+    scroll-padding: 0px;
+    box-sizing: content-box;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    min-height: 1.75rem; /* 36px */
+
+}
+
+.container{
+    min-height: 100vh;
+    background: url('bg1.jpg')
+}
+
+.wrapper{
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 20px;
+    height: 70%;
+    width: 20%;
+    backdrop-filter: blur(30px);
+    display: flex;
+
+}
+
+#login{
+    text-align: center;
+    
+}
+
+#login-button{
+    padding: 10px;
+    background-color: rgb(8 145 178);
+    border-radius: 0.9rem;
+    width:10rem;
+}
+
+#login-button:hover{
+    padding: 10px;
+    background-color: rgb(34 211 238);
+    border-radius: 0.9rem;
+    
+}
+
+#username{
+    margin:10px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 16rem; /* 256px */
+}
+
+#password{
+    margin:10px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 16rem; /* 256px */
+}
+
+#checkbox{
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}

@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    font-family: 'Monteserrat', sans-serif;
+    scroll-padding: 0px;
+    box-sizing: content-box;
+    margin: 0px;
+}
+
+:root{
+    background-image: linear-gradient(to right, #008b8b, #b0e0e6);
+}
+
+.container{
+    display:flex;
+}
